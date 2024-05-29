@@ -1,9 +1,45 @@
 body {
-    height: 100vh;
+    height: 98vh;
     margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-image: url();
+
 }
 
 
 #container {
+    border: solid red;
+    
 
 }
+
+#description {
+    background-color: red;
+    color: white;
+}
+
+
+h2 {
+    margin-top: -17px;
+
+}
+
+ul {
+    border: solid green;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+ul li {
+    list-style: none;
+}
+
+li:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+
