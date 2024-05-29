@@ -5,19 +5,35 @@ body {
     justify-content: center;
     align-items: center;
     text-align: center;
-    background-image: url();
+    background-image: url('images/Journey_SmallSize-2580x1450-75345be2b7101291982f1dcfcedaadbd.jpg');
+    background-position: center;
+    background-size: cover;
 
+}
+
+
+#speaker {
+    border: solid green;
+    position: absolute;
+    top: 0;
+    right: 0;
+
+}
+
+#speaker img {
+    height: 35px;
+    cursor: pointer;
 }
 
 
 #container {
     border: solid red;
+    font-family: 'Courier New', Courier, monospace;
     
 
 }
 
 #description {
-    background-color: red;
     color: white;
 }
 
@@ -28,18 +44,21 @@ h2 {
 }
 
 ul {
-    border: solid green;
+    border: hidden green;
     display: flex;
     justify-content: space-evenly;
 }
 
 ul li {
     list-style: none;
+    color: black;
+
 }
 
 li:hover {
     text-decoration: underline;
     cursor: pointer;
+    color: white;
 }
 
 
